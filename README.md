@@ -1,4 +1,4 @@
-# NVidia-Experience-Garbage-Cleanup-Script
+# NVidia GeForce Experience Garbage Cleanup Script
 
 **:bangbang: This script will DELETE files and folders. Run it at your own risk! :bangbang:**
 
