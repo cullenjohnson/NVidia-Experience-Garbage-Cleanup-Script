@@ -2,7 +2,7 @@
 
 **:bangbang: This script will DELETE files and folders. Run it at your own risk! :bangbang:**
 
-NVidia GeForce leaves drivers on your system FOREVER. You can download and schedule this PowerShell script to delete these files. You will need to run this powershell script with administrative privileges.
+NVidia GeForce Experience leaves drivers on your system FOREVER. You can download and schedule this PowerShell script to delete these files. You will need to run this powershell script with administrative privileges.
 
 ## Scheduling with Windows Task Scheduler
 
