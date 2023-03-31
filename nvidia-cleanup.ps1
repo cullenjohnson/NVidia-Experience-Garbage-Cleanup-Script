@@ -1,6 +1,6 @@
 $path = "$env:ALLUSERSPROFILE\NVIDIA Corporation\Downloader"
 
-# This is the regex I use to look for old driver folders. The folder name MUST have at least 2 numbers in it as well as any number of hexadecimal digits.
+# This is the regex I use to look for old driver folders. The folder name must have at least 2 numbers in it as well as any number of hexadecimal digits.
 $filter = [regex] "^[0-9a-f]*\d[0-9a-f]*\d[0-9a-f]*(_extracted)?_?$"
 
 echo "Cleaning up Nvidia's garbage..."
