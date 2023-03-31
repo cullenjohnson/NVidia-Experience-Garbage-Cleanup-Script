@@ -11,12 +11,12 @@ Get-ChildItem -Path $path |
     Where-Object -Property Name -match $filter |
     Group-Object -Property Name |
     ForEach-Object {
-        echo  "  - Recycling [$path\$($_.Group.Name)]..."
+        echo  "  - Deleting [$path\$($_.Group.Name)]..."
         Remove-Item "$path\$($_.Group.Name)" -Recurse
     }
 echo ""
 
-echo "  - Recycling $path\status.json..."
+echo "  - Deleting $path\status.json..."
 Remove-Item "$path\status.json"
 
 echo "  - Creating empty $path\status.json..."
